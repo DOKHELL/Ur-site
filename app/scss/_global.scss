@@ -1,0 +1,16 @@
+@import 'vars';
+body{
+    font-family: $pt;
+    font-size: 14px;
+    font-weight: 400;
+    color: $par;
+}
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: $btn;
+}
