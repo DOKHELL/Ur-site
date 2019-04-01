@@ -32,7 +32,17 @@
                 <div class="logo">
                     <img src="img/logo.png" alt="">
                 </div>
-                <nav class="menu">
+                <a href="#" class="m-menu-link">
+                        <div class="bars icon-navicon"></div>   
+                    </a>
+                        <ul class="m-menu">
+                            <li class="close-menu">&times;</li>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                <nav class="menu visible-lg">
                     <ul>
                         <li><a class="active" href="#">Главная</a></li>
                         <li><a href="#">О компании</a></li>
@@ -43,11 +53,8 @@
             </div>
         </div>
         <div class="header__slider">
-                    <div class="slider__inner">
-                            <div class="slider__img">
-                                <img src="img/slider1.jpg" alt="">
-                            </div>
-                                <div class="slider__wrap">
+            <div class="header__slider-wrapp">
+                <div class="slider__inner1">
                                     <div class="slider__title">
                                             КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
                                     </div>
@@ -57,13 +64,8 @@
                                     <div class="slider__button">
                                             <a href="#">Оставить заявку</a>
                                     </div>
-                            </div>
                     </div>
-                    <div class="slider__inner">
-                            <div class="slider__img">
-                                <img src="img/slider2.jpg" alt="">
-                            </div>
-                                <div class="slider__wrap">
+                    <div class="slider__inner2">
                                     <div class="slider__title">
                                             КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
                                     </div>
@@ -72,9 +74,9 @@
                                     </div>
                                     <div class="slider__button">
                                             <a href="#">Оставить заявку</a>
-                                    </div>
                             </div>
                     </div>
+            </div>   
             </div>
     </header>
     <main class="main">
@@ -106,8 +108,8 @@
                                 Банкротство и ликвидация
                         </div>
                         <div class="survices__item-text">
-                                Полное прекращение существования юридического
-                                лица с сохранением легальности всей предыдущей деятельности
+                            <span>Полное прекращение существования юридического
+                                лица с сохранением легальности всей предыдущей деятельности</span>
                         </div>
                         <div class="survices__item-button">
                             <a href="#" class="more">Подробнее</a>
@@ -124,8 +126,8 @@
                                     Адвокатское сопровождение
                             </div>
                             <div class="survices__item-text">
-                                    Мы гарантируем полное профессиональное обслуживание 
-                                    клиентов в заявленных сферах деятельности и соблюдение конфиденциальности.
+                                <span>Мы гарантируем полное профессиональное обслуживание 
+                                    клиентов в заявленных сферах деятельности и соблюдение конфиденциальности.</span>
                             </div>
                             <div class="survices__item-button">
                                 <a href="#" class="more">Подробнее</a>
@@ -142,8 +144,8 @@
                                         Налоговый аудит
                                 </div>
                                 <div class="survices__item-text">
-                                        Налоговый аудит проводят перед проведением 
-                                        налоговых проверок; при оценке возможных налоговых рисков; при оптимизации налогообложения.
+                                    <span> Налоговый аудит проводят перед проведением 
+                                        налоговых проверок; при оценке возможных налоговых рисков; при оптимизации налогообложения.</span>
                                 </div>
                                 <div class="survices__item-button">
                                     <a href="#" class="more">Подробнее</a>
@@ -218,6 +220,9 @@
                             Сообщение
                         </div>
                         <textarea class="texts"></textarea>
+                        <div class="button">
+                                <a href="#">Получить консультацию</a>
+                            </div>
                     </div>
                 </div>
                 <div class="form-photo">

@@ -1,0 +1,213 @@
+@media (max-width: 1000px){
+    .slick-prev {
+        right: 2%;
+    }
+    .slick-next {
+        left: 2%;
+    }
+    .survices__item-button{
+        padding: 0px;
+    }
+}
+@media (max-width: 900px){
+    .news{
+        .container{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .news__main{
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .news__other{
+        max-width: 100%;
+    }
+}
+@media (max-width: 850px){
+    .form-photo{
+        display: none;
+    }
+    .survices__inner,.news-company__inner{
+        padding-right: 30px;
+    }
+    .survices__all, .news-company__all{
+        padding-right: 0;
+    }
+    .form{
+        width: 100%;
+    }
+    body{
+        font-size: 12px;
+    }
+    .slider__title{
+        font-size: 25px;
+    }
+    .slider__text{
+        font-size: 13px;
+    }
+    .slider__button a{
+        font-size: 12px;
+    }
+    .slick-prev, .slick-next{
+        width: 30px;
+        height: 30px;
+    }
+    .survices__all a, .news-company__all a{
+        padding: 10px 13px;
+    }
+    .recommendations__box-title{
+        font-size: 15px;
+    }
+    .about-company{
+        .container{
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 768px){
+    .visible-lg{
+        display: none;
+    }
+    .m-menu{
+        font-size: 15px;
+        z-index: 5;
+    }
+    .m-menu-link{
+        display: block;
+    }
+    .survices, .news-company{
+        padding: 20px 0px 50px 0px;
+    }
+    .slider__inner2,.slider__inner1{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+    .survices__order{
+        .container{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .survices__item + .survices__item{
+        margin: 0;
+    }
+    .survices__item-box{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .survices,.news-company{
+        .container{
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        .survices__line,.news-company__line{
+            display: none;
+        }
+    }
+    .recommendations__box-title{
+        font-size: 14px;
+    }
+}
+@media (max-width: 640px){
+    .header__info-help{
+        display: none;
+    }
+    .header__info{
+        .container{
+            justify-content: center;
+        }
+    }
+    .slider__inner2,.slider__inner1{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .slick-prev, .slick-next{
+        display: none;
+    }
+    .recommendations__box-title{
+        font-size: 13px;
+    }
+}
+@media (max-width: 592px){
+    .survices__inner,.news-company__inner{
+        padding: 15px 15px;
+    }
+    .recommendations__box-title{
+        font-size: 16px;
+    }
+    .recommendations{
+        padding: 25px 0px 30px 0px;
+        .container{
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+    }
+    .recommendations__box{
+        padding-bottom: 20px;
+    }
+    .about-company{
+        margin-bottom: 0;
+    }
+    .form{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form__contacts{
+        width: 70%;
+        margin-right: 0;
+    }
+    .email, .tel, .name, .question{
+        max-width: none;
+    }
+    .texts{
+        width: 100%;
+    }
+    .survices{
+        padding: 20px 0px 30px 0px;
+    }
+    .form__info{
+        .button{
+            padding-top: 10px;
+            padding-right: 0;
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 448px){
+    .news__other{
+        flex-wrap: wrap;
+    }
+    .news__other-company{
+        padding-bottom: 20px;
+    }
+    .news__wrap{
+        padding: 0px 5px 10px 20px;
+    }
+    .header__info-contact li + li, .footer__info-contact li + li{
+        padding-left: 15px;
+    }
+    .news{
+        padding-bottom: 50px;
+    }
+    .survices__info-title, .news-company__info-title{
+        font-size: 20px;
+    }
+    .form__contacts,.form__info{
+        width: 90%;
+    }
+    .survices {
+    padding: 20px 0px 30px 0px;
+    }
+    .slider__title{
+        font-size: 17px;
+        padding-top: 60px;
+    }
+    .slider__text{
+        font-size: 12px;
+    }
+}

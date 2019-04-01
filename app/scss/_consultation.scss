@@ -10,6 +10,7 @@
 .form{
     display: flex;
     width: 75%;
+    padding-bottom: 30px;
 }
 .form-photo {
     width: 25%;
@@ -45,4 +46,12 @@
     height: 200px;
     font-size: 16px;
     resize: none;
+}
+.form__info{
+    .button{
+        padding-top: 40px;
+        justify-content: flex-end;
+        display: flex;
+        padding-right: 25px;
+    }
 }

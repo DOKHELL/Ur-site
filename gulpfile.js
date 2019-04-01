@@ -44,9 +44,7 @@ gulp.task('code', function() {
 });
 gulp.task('concats', function() {
 	return gulp.src([ // Берем все необходимые файлы
-		'app/css/icomoon.css',
-		'app/css/main.css',
-		'app/css/media.css'
+		'app/css/main.css'
 		])
 		.pipe(concat('main.min.css')) // Собираем их в кучу в новом файле main.min.css
 		.pipe(cssnano())// Сжимаем Сss файл
