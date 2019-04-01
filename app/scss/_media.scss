@@ -127,11 +127,11 @@
         padding-bottom: 50px;
     }
     .slick-prev, .slick-next{
-        display: none;
-    }
+        display: none !important;
     .recommendations__box-title{
         font-size: 13px;
     }
+}
 }
 @media (max-width: 592px){
     .survices__inner,.news-company__inner{
