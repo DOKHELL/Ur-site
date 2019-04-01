@@ -3,7 +3,9 @@ body{
     font-family: $pt;
     font-size: 14px;
     font-weight: 400;
+    line-height: 24px;
     color: $par;
+    margin: 0;
 }
 ul{
     list-style:none;
@@ -12,5 +14,40 @@ ul{
 }
 a{
     text-decoration: none;
-    color: $btn;
+    color: $par;
+}
+.container{
+    display: flex;
+    padding: 0px 15px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.button{
+    line-height: 18px;
+    a{
+        color: #373636;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $roboto;
+        letter-spacing: 0.35px;
+        padding: 9px 15px 9px 15px;
+        border: 1px solid #ffc222;
+        border-right: 21px solid #ffc222;
+        position: relative;
+        transition: all .8s;
+            &:after{
+                content: "\f105";
+                font-family: 'icomoon';
+                position: absolute;
+                letter-spacing: 0.35px;
+                color: #fff;
+                right: -13px;
+                top: 8px;
+            }
+            &:hover{
+                background-color: #ffc222;
+                color: #323232;
+            }
+
+    }
 }

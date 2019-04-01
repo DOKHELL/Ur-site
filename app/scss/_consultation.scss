@@ -1,0 +1,48 @@
+@import 'vars';
+
+.consultation{
+    width: 100%;
+    margin: 0;
+    .container{
+        justify-content: space-between;
+    }
+}
+.form{
+    display: flex;
+    width: 75%;
+}
+.form-photo {
+    width: 25%;
+    display: block;
+    margin-top: -120px;
+        img{
+            width: 100%;
+        }
+}
+.form__wrap{
+    display: flex;
+    width: 100%;
+}
+.form__contacts{
+    width: 30%;
+    margin-right: 30px;
+}
+.form__info{
+    width: 70%;
+}
+.email,.tel,.name,.question{
+    width: 100%;
+    max-width: 260px;
+    height: 35px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+
+}
+.texts{
+    width: 95%;
+    outline: none;
+    height: 200px;
+    font-size: 16px;
+    resize: none;
+}

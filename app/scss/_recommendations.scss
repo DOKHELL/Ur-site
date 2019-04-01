@@ -1,0 +1,45 @@
+@import 'vars';
+.recommendations{
+    background-image: url(../img/img-bot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px 60px 0px;
+        .container{
+            justify-content: space-between;
+        }
+}
+.ico-accept{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #ffc222;
+    margin-bottom: 13px;
+        &:after{
+            content: "\f00c";
+            font-family: 'icomoon';
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+}
+.recommendations__box{
+    max-width: 350px;
+    &+.recommendations__box{
+        padding-left: 10px;
+    }
+}
+.recommendations__box-title{
+    font-family: $roboto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.recommendations__box-text{
+    color: #d3d2d2;
+
+}

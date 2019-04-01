@@ -1,0 +1,33 @@
+@import 'vars';
+.footer{
+    background-color: #595959;
+    text-align: center;
+    color: #fff;
+    .container{
+        justify-content: center;
+    }
+}
+.footer__info{
+    padding: 25px 0px 30px 0px;
+}
+.footer__info-title{
+    font-family: $roboto;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.footer__info-text{
+    font-family: $roboto;
+    color: #d3d2d2;
+    padding-bottom: 25px;
+}
+.footer__info-help{
+    padding-bottom: 30px;
+}
+.footer__area{
+    background-color: #303030;
+    text-align: center;
+    font-family: $roboto;
+    font-size: 12px;
+    color: #d3d2d2;
+}
